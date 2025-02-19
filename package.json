@@ -6,7 +6,10 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "cli": "node src/cli.js"
+    "cli": "node src/cli.js",
+    "test": "node test/monitor.test.js",
+    "example": "node examples/basic-usage.js",
+    "risk-demo": "node examples/risk-management.js"
   },
   "keywords": [
     "ethereum",
